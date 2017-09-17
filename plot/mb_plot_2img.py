@@ -8,13 +8,14 @@ time=[0.25,0.49,0.98,0.87,1.34]
 
 #plt.figure("figa")
 plt.figure(1)
+# plt.subplot(211)
 plt.plot(instances,error,"r*")
 plt.plot(instances,error,label="$label_plot$",color="red",linewidth=2)
 plt.xlabel("data")
 plt.ylabel("label ")
 plt.title("a simple plot")
 plt.legend()
-plt.show()
+#plt.show()
 #plt.savefig("plot_label.jpg")
 
 #plt.figure("figb")
